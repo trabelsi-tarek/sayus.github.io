@@ -16,24 +16,25 @@ main {
     padding: 2em;
 }
 
-section {
+.menu-item {
+    background-color: #fff;
+    padding: 1em;
     margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+.menu-item h2 {
     color: #333;
 }
 
-p {
-    color: #666;
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.menu-item p {
+    color: #666;
 }
